@@ -1,11 +1,9 @@
-#!/usr/bin/env python3
 """
 Build documents, chunk them, mask PII, and compute embeddings.
 Outputs:
  - Dataset/chunks.jsonl   (one JSON per chunk: {"text":..., "chunk_id":..., "meta":{...}})
  - Dataset/metas.jsonl
  - Dataset/embeddings.npy
- - optional: faiss index creation (commented)
 """
 
 import os
