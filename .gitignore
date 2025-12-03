@@ -55,7 +55,6 @@ config.json
 credentials.json
 
 # Machine Learning & Data Science
-*.npy
 *.npz
 *.pkl
 *.pickle
@@ -66,18 +65,13 @@ credentials.json
 *.ckpt
 *.model
 
-# FAISS Index
-*.index
-faiss_index.index
-
-# Large Data Files
-*.csv
-*.jsonl
-*.parquet
-*.feather
-
-# PDFs (if needed, uncomment to track PDFs)
-# *.pdf
+# Dataset files are tracked (excluded from gitignore)
+# The following are now tracked:
+# - *.npy (embeddings)
+# - *.index (FAISS index)
+# - *.csv (customer/store data)
+# - *.jsonl (chunks and metadata)
+# - *.pdf (customer and store PDFs)
 
 # Logs
 *.log

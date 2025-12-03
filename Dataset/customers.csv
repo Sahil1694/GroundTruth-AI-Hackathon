@@ -1,0 +1,501 @@
+customer_id,name,age,gender,phone,preferred_drinks,preferred_size,allergies,usual_order_time,home_location_lat,home_location_lon,last_visited_store_id,average_monthly_spend,reward_points
+1001,Aditya Khilari,35,M,****0711,Cappuccino,L,None,Night,18.445485,73.791691,2060,1134,1232
+1002,Sahil Bhosale,30,O,****8098,Tea|Cappuccino|Espresso,L,Dairy,Morning,18.561809,73.802245,2109,796,569
+1003,Isha Joshi,39,M,****5092,Cappuccino|Cold Coffee,M,Dairy,Morning,18.557157,73.862496,2097,261,1130
+1004,Rohit Das,41,O,****8299,Cappuccino|Latte|Mocha,S,Dairy,Morning,18.577251,73.915337,2098,669,928
+1005,Aman Deshmukh,41,F,****6459,Hot Cocoa|Mocha|Tea,L,None,Noon,18.525862,73.81587,2119,877,552
+1006,Simran Reddy,38,M,****8494,Mocha,M,Dairy,Morning,18.474157,73.927566,2184,744,435
+1007,Maya Kapoor,59,F,****7200,Cold Coffee|Cappuccino,L,Dairy,Night,18.584052,73.840604,2057,383,1043
+1008,Maya Sharma,21,M,****2119,Cold Coffee|Tea|Mocha,M,None,Night,18.501459,73.936079,2136,614,1988
+1009,Simran Khilari,25,O,****4367,Hot Cocoa|Tea|Mocha,M,None,Evening,18.509962,73.849296,2185,639,1990
+1010,Arjun Deshmukh,50,M,****2197,Hot Cocoa|Tea|Mocha,L,Nuts,Noon,18.500226,73.802548,2200,1186,1881
+1011,Sahil Das,38,F,****2992,Mocha,M,Nuts,Morning,18.478939,73.867477,2021,275,1498
+1012,Maya Sharma,52,M,****9287,Americano|Hot Cocoa|Cappuccino,M,Gluten,Noon,18.589026,73.897542,2177,511,1460
+1013,Rohit Kapoor,60,O,****7212,Americano|Latte,S,Nuts,Morning,18.494494,73.870829,2059,1305,451
+1014,Sahil Sharma,58,M,****4373,Latte,M,None,Noon,18.484956,73.854366,2139,370,1481
+1015,Dev Rao,48,M,****8695,Tea|Cappuccino,S,None,Night,18.497088,73.842476,2187,210,1379
+1016,Aditya Patel,43,O,****3393,Espresso,S,Nuts,Night,18.462829,73.806058,2119,611,1790
+1017,Vivaan Chopra,53,M,****8806,Latte|Americano|Cappuccino,S,Gluten,Night,18.517417,73.915044,2016,437,776
+1018,Sahil Kapoor,34,F,****4028,Americano|Cappuccino,S,Dairy,Noon,18.595393,73.869369,2139,224,1531
+1019,Priya Patel,21,O,****7770,Cold Coffee|Latte|Hot Cocoa,S,Nuts,Morning,18.535606,73.884734,2061,926,245
+1020,Dev Reddy,55,O,****2287,Cappuccino|Espresso|Mocha,L,Dairy,Evening,18.473081,73.891291,2062,643,810
+1021,Isha Mehta,47,F,****5838,Latte,M,None,Morning,18.526422,73.857642,2034,814,1804
+1022,Vivaan Reddy,41,F,****9374,Hot Cocoa|Americano,L,None,Evening,18.589481,73.793274,2035,641,236
+1023,Aditya Bhosale,27,F,****3494,Espresso|Mocha|Cold Coffee,S,Dairy,Night,18.480579,73.922005,2014,289,1299
+1024,Sneha Iyer,20,M,****3605,Hot Cocoa,S,Gluten,Night,18.530145,73.7946,2177,405,1117
+1025,Aarav Nair,55,O,****4493,Cold Coffee|Latte,M,Dairy,Morning,18.584228,73.810312,2064,1465,210
+1026,Aman Bhosale,44,O,****5462,Espresso,S,Nuts,Night,18.444366,73.89455,2086,943,1642
+1027,Karan Iyer,28,O,****6793,Latte|Tea,M,Nuts,Noon,18.571054,73.850349,2079,566,456
+1028,Sahil Joshi,43,F,****7754,Hot Cocoa,M,Gluten,Evening,18.590678,73.795155,2067,465,1189
+1029,Neha Patel,24,O,****9283,Mocha|Espresso,L,None,Night,18.584321,73.807113,2012,993,3
+1030,Arjun Bhosale,60,M,****9829,Cappuccino|Mocha,M,Dairy,Morning,18.555561,73.824752,2080,1465,836
+1031,Priya Kapoor,36,O,****4237,Tea,L,Gluten,Noon,18.538882,73.824852,2141,100,622
+1032,Rohit Joshi,45,O,****7897,Mocha|Espresso|Tea,M,Nuts,Night,18.567398,73.930273,2189,447,1349
+1033,Vivaan Mehta,50,O,****5069,Mocha|Latte|Cappuccino,L,Dairy,Noon,18.56945,73.800277,2012,601,973
+1034,Nikita Sharma,47,F,****2263,Espresso|Mocha|Tea,M,Gluten,Night,18.479438,73.881669,2002,318,1594
+1035,Sneha Reddy,29,O,****2900,Latte|Hot Cocoa,S,None,Night,18.461734,73.851043,2136,1244,1219
+1036,Priya Chopra,57,O,****9499,Tea|Americano|Hot Cocoa,M,Nuts,Night,18.512411,73.896984,2164,667,1568
+1037,Arjun Verma,58,M,****6763,Cappuccino|Mocha,M,Nuts,Evening,18.494136,73.919584,2021,383,308
+1038,Karan Kapoor,27,O,****0155,Tea,M,Dairy,Night,18.506924,73.809794,2108,897,1853
+1039,Dev Khilari,54,F,****3089,Mocha,M,Gluten,Night,18.526515,73.894241,2155,551,999
+1040,Karan Iyer,45,F,****5166,Mocha|Americano,L,Gluten,Noon,18.574881,73.923827,2160,1193,55
+1041,Varun Rao,54,O,****0607,Tea,S,Gluten,Noon,18.448446,73.837357,2055,1031,669
+1042,Priya Kapoor,35,F,****4491,Americano,S,None,Evening,18.476276,73.787679,2167,182,1544
+1043,Sahil Reddy,30,M,****4083,Espresso,S,Gluten,Morning,18.530635,73.811574,2180,624,1570
+1044,Aman Deshmukh,56,O,****9055,Cappuccino|Tea|Americano,M,None,Morning,18.589022,73.868827,2097,912,1928
+1045,Riya Sharma,55,O,****9497,Espresso|Latte|Mocha,M,None,Morning,18.495953,73.84524,2095,241,1036
+1046,Priya Khilari,44,F,****1496,Mocha|Americano,M,Nuts,Night,18.468582,73.860179,2167,653,1261
+1047,Simran Verma,47,F,****5773,Hot Cocoa|Cold Coffee|Cappuccino,S,Dairy,Night,18.479418,73.851053,2157,1468,776
+1048,Priya Khilari,49,F,****9057,Espresso|Cold Coffee,M,Dairy,Evening,18.581251,73.888889,2071,1238,20
+1049,Arjun Joshi,23,M,****4285,Americano|Hot Cocoa,S,Gluten,Night,18.512108,73.779459,2076,553,828
+1050,Karan Mehta,60,O,****2693,Mocha|Espresso,L,Dairy,Evening,18.552857,73.820047,2065,572,247
+1051,Riya Gupta,25,O,****9544,Cold Coffee|Cappuccino|Tea,L,Gluten,Evening,18.556334,73.932957,2135,1322,579
+1052,Aditya Joshi,36,M,****3096,Hot Cocoa,S,Nuts,Evening,18.447683,73.785424,2075,358,1306
+1053,Maya Singh,18,O,****7028,Americano|Espresso,M,Nuts,Morning,18.480797,73.914576,2030,233,820
+1054,Maya Sharma,54,O,****1174,Cold Coffee,S,Dairy,Morning,18.599427,73.795652,2196,952,1241
+1055,Nikita Das,32,O,****7798,Americano|Cold Coffee,L,Gluten,Evening,18.531381,73.786337,2190,303,1940
+1056,Riya Joshi,34,O,****4381,Espresso,S,None,Noon,18.440828,73.848781,2153,1062,596
+1057,Aarav Reddy,36,O,****6540,Americano|Latte|Mocha,S,Dairy,Noon,18.508422,73.86383,2166,405,1860
+1058,Neha Kumar,22,M,****8234,Hot Cocoa|Espresso,S,Gluten,Evening,18.552357,73.927528,2129,1205,1011
+1059,Ishaan Sharma,56,M,****0559,Mocha|Hot Cocoa,M,None,Morning,18.477028,73.884588,2148,1302,1947
+1060,Sahil Iyer,54,M,****2051,Americano,L,Gluten,Evening,18.469438,73.870353,2163,1107,1984
+1061,Vivaan Verma,40,F,****7167,Cappuccino|Tea,S,Dairy,Night,18.551388,73.822815,2103,1226,75
+1062,Ishaan Sharma,38,F,****2584,Tea,L,None,Night,18.50652,73.806713,2093,1375,1549
+1063,Maya Chopra,21,M,****9454,Cold Coffee|Americano|Espresso,L,Gluten,Morning,18.445019,73.877504,2062,424,636
+1064,Simran Khilari,53,F,****2623,Cappuccino,M,None,Noon,18.52014,73.891357,2131,659,850
+1065,Maya Verma,33,F,****6368,Tea,S,Nuts,Morning,18.4846,73.903101,2107,796,1913
+1066,Arjun Iyer,18,F,****1310,Americano|Tea,S,Gluten,Night,18.49562,73.865007,2140,872,932
+1067,Priya Joshi,33,O,****1819,Tea,S,Dairy,Night,18.553236,73.906525,2099,1459,1622
+1068,Isha Verma,20,M,****1014,Mocha|Tea|Latte,M,None,Night,18.442856,73.799765,2168,416,153
+1069,Maya Iyer,39,O,****5903,Cappuccino|Tea,M,Gluten,Evening,18.540688,73.91869,2125,1208,73
+1070,Nikita Sharma,33,O,****8441,Espresso|Mocha,S,Gluten,Morning,18.562059,73.889323,2026,1008,340
+1071,Rohit Khilari,20,F,****2540,Hot Cocoa,M,Dairy,Night,18.463691,73.861687,2145,1496,1623
+1072,Ananya Deshmukh,29,M,****6820,Espresso|Americano,L,Nuts,Noon,18.514184,73.817336,2066,1465,19
+1073,Ishaan Mehta,52,M,****8612,Mocha|Hot Cocoa,M,Gluten,Evening,18.513494,73.825039,2099,1089,218
+1074,Karan Kapoor,54,F,****9615,Hot Cocoa|Latte,L,Gluten,Evening,18.441696,73.915111,2200,200,1864
+1075,Nikita Verma,36,M,****1074,Espresso|Mocha,S,Dairy,Noon,18.54092,73.921245,2166,180,632
+1076,Ishaan Patel,55,F,****5312,Cappuccino,M,Dairy,Night,18.468502,73.797846,2139,849,1087
+1077,Arjun Iyer,28,F,****2587,Hot Cocoa|Mocha,M,None,Night,18.594463,73.799221,2058,1485,1483
+1078,Varun Bhosale,41,M,****8297,Latte|Cold Coffee,L,None,Night,18.499374,73.896542,2068,1297,780
+1079,Aman Singh,32,F,****0011,Mocha|Hot Cocoa|Cappuccino,L,None,Night,18.585902,73.82505,2105,338,286
+1080,Aarav Patel,37,F,****3417,Espresso,L,Nuts,Night,18.512983,73.883978,2191,1206,858
+1081,Dev Kumar,44,O,****3670,Tea|Cold Coffee,S,Dairy,Noon,18.511341,73.928789,2093,303,1404
+1082,Aman Bhosale,59,F,****5165,Hot Cocoa|Cappuccino,S,Gluten,Morning,18.546443,73.879373,2153,143,103
+1083,Priya Reddy,26,O,****7809,Espresso,L,Nuts,Noon,18.49297,73.800309,2153,105,567
+1084,Isha Kumar,52,F,****7689,Cappuccino,L,None,Noon,18.442778,73.903098,2061,1305,663
+1085,Sahil Deshmukh,34,M,****5947,Tea|Hot Cocoa|Latte,L,None,Night,18.512124,73.834626,2152,323,925
+1086,Arjun Reddy,57,M,****1219,Hot Cocoa|Espresso|Mocha,S,None,Night,18.575968,73.844904,2028,1104,1458
+1087,Ishaan Sharma,23,F,****4389,Cappuccino,S,Dairy,Evening,18.501345,73.872283,2076,1029,1035
+1088,Nikita Saxena,24,O,****1168,Espresso|Americano|Tea,S,Gluten,Evening,18.572787,73.840497,2187,294,640
+1089,Sneha Gupta,60,F,****2658,Americano,S,None,Morning,18.455317,73.79215,2190,863,1662
+1090,Isha Bhosale,21,O,****8820,Mocha|Americano|Latte,M,Dairy,Night,18.579295,73.89207,2074,1329,639
+1091,Aman Singh,54,O,****6553,Americano,S,None,Evening,18.57566,73.83551,2196,670,1175
+1092,Karan Saxena,53,O,****9288,Latte|Hot Cocoa|Mocha,L,Dairy,Morning,18.469267,73.889132,2080,795,718
+1093,Sahil Deshmukh,27,O,****8425,Cappuccino|Americano,L,None,Morning,18.559778,73.811121,2108,1029,698
+1094,Ananya Nair,37,O,****3473,Cappuccino|Latte|Americano,S,None,Morning,18.483936,73.88261,2125,1343,905
+1095,Sneha Iyer,31,O,****0617,Tea|Latte,M,Gluten,Evening,18.447667,73.839942,2154,212,15
+1096,Riya Mehta,31,M,****1515,Hot Cocoa|Cold Coffee,S,None,Night,18.559922,73.804811,2098,1190,1441
+1097,Karan Malhotra,53,O,****0861,Cappuccino|Espresso,L,None,Night,18.443399,73.924086,2081,1279,879
+1098,Dev Kapoor,58,F,****4588,Tea,S,Dairy,Noon,18.568612,73.8756,2177,841,180
+1099,Sneha Singh,33,F,****5732,Cappuccino|Espresso,M,Dairy,Noon,18.493691,73.803601,2131,1396,233
+1100,Arjun Malhotra,30,F,****0466,Cold Coffee|Cappuccino|Latte,S,Dairy,Noon,18.46816,73.801159,2195,1442,154
+1101,Ananya Verma,47,O,****1873,Americano|Mocha|Hot Cocoa,L,Dairy,Evening,18.464553,73.787626,2114,1393,620
+1102,Neha Rao,21,F,****8834,Hot Cocoa,M,Gluten,Morning,18.449502,73.909771,2020,1420,1769
+1103,Vivaan Das,56,O,****4919,Latte|Espresso,L,Nuts,Evening,18.537201,73.856919,2016,1022,211
+1104,Priya Sharma,50,O,****3722,Espresso,L,Gluten,Night,18.524251,73.874269,2094,863,1879
+1105,Rohit Kapoor,44,F,****0875,Latte|Tea|Mocha,L,Dairy,Morning,18.493151,73.865974,2099,681,516
+1106,Nikita Kumar,39,M,****1790,Cold Coffee|Americano|Tea,L,Gluten,Noon,18.535607,73.92678,2080,1244,771
+1107,Priya Kumar,60,O,****7914,Cappuccino|Mocha|Tea,M,Dairy,Morning,18.498416,73.805542,2055,799,1940
+1108,Maya Joshi,32,M,****1119,Hot Cocoa,S,None,Evening,18.580623,73.875585,2153,871,315
+1109,Ananya Deshmukh,57,M,****4348,Latte|Espresso,M,Nuts,Night,18.538095,73.897083,2115,579,1093
+1110,Karan Mehta,48,M,****6219,Americano|Espresso|Cold Coffee,M,Gluten,Noon,18.571103,73.904901,2036,612,106
+1111,Maya Nair,53,M,****0982,Cappuccino|Cold Coffee|Latte,S,Dairy,Night,18.585249,73.800276,2112,287,1938
+1112,Karan Chopra,40,M,****2166,Tea,L,Dairy,Noon,18.502187,73.789757,2058,157,652
+1113,Aditya Gupta,27,M,****7742,Americano|Mocha,S,Gluten,Night,18.538856,73.921637,2005,624,441
+1114,Isha Bhosale,56,O,****6340,Hot Cocoa,S,Dairy,Morning,18.44804,73.843872,2160,1036,128
+1115,Aditya Verma,56,O,****7321,Espresso|Mocha|Cappuccino,M,Gluten,Morning,18.53877,73.81519,2107,483,1360
+1116,Vivaan Malhotra,41,M,****2025,Latte|Espresso|Tea,S,Gluten,Evening,18.480984,73.779299,2018,806,493
+1117,Aditya Rao,39,M,****5080,Mocha|Tea,L,Nuts,Night,18.597331,73.853265,2047,376,129
+1118,Ishaan Patel,36,M,****6629,Latte,M,Dairy,Night,18.59866,73.863585,2065,174,1542
+1119,Riya Mehta,40,M,****3817,Mocha|Cold Coffee|Latte,M,Gluten,Night,18.559329,73.919842,2099,794,1994
+1120,Ananya Verma,49,F,****0805,Hot Cocoa|Tea|Latte,L,Gluten,Morning,18.509297,73.935916,2047,1217,601
+1121,Priya Singh,23,F,****6613,Hot Cocoa|Espresso,L,Gluten,Noon,18.550762,73.832948,2011,822,1259
+1122,Sneha Iyer,58,M,****4838,Tea|Cold Coffee|Hot Cocoa,L,Nuts,Morning,18.463245,73.873912,2113,171,258
+1123,Vivaan Reddy,59,F,****6231,Latte|Hot Cocoa,S,Gluten,Evening,18.499922,73.898794,2147,381,1084
+1124,Aman Kapoor,38,O,****0862,Cappuccino,S,Nuts,Night,18.523239,73.922867,2031,636,1587
+1125,Neha Chopra,31,O,****5834,Americano|Cappuccino|Latte,S,None,Night,18.468025,73.890839,2023,1496,1981
+1126,Priya Nair,22,O,****2066,Hot Cocoa|Tea,S,Nuts,Evening,18.521801,73.796118,2052,384,484
+1127,Maya Khilari,41,O,****8186,Americano|Tea,L,Nuts,Morning,18.45092,73.840406,2184,1080,1076
+1128,Sneha Saxena,54,M,****8604,Cappuccino|Espresso,M,Dairy,Noon,18.580874,73.901542,2164,1303,372
+1129,Isha Saxena,50,M,****9085,Cold Coffee,M,Nuts,Noon,18.492026,73.890193,2089,1162,1832
+1130,Rohit Sharma,34,M,****7358,Hot Cocoa|Cappuccino|Mocha,M,None,Noon,18.535089,73.869603,2044,1449,1278
+1131,Nikita Gupta,54,M,****0690,Cappuccino,S,Dairy,Noon,18.563113,73.843354,2164,162,1019
+1132,Simran Mehta,59,F,****8050,Tea,M,Gluten,Morning,18.550578,73.801993,2107,1091,951
+1133,Riya Gupta,56,M,****2899,Mocha|Americano|Cold Coffee,M,Nuts,Evening,18.522797,73.793689,2062,1055,250
+1134,Neha Chopra,33,M,****0725,Hot Cocoa,M,Gluten,Noon,18.59443,73.92107,2084,1283,1476
+1135,Priya Joshi,28,F,****1586,Americano|Cold Coffee,M,None,Morning,18.591637,73.857571,2062,540,1194
+1136,Aman Patel,21,F,****8604,Americano|Cold Coffee|Hot Cocoa,S,None,Night,18.46183,73.819016,2094,925,749
+1137,Aarav Kapoor,21,O,****6271,Mocha,L,Dairy,Morning,18.502216,73.848757,2141,672,1690
+1138,Nikita Das,25,M,****0954,Mocha|Tea,M,Dairy,Noon,18.472249,73.85816,2129,182,92
+1139,Aarav Kumar,39,F,****9251,Cold Coffee|Hot Cocoa,L,Nuts,Evening,18.589419,73.827665,2101,1362,1514
+1140,Rohit Rao,39,O,****8954,Americano|Mocha|Hot Cocoa,M,Gluten,Morning,18.499337,73.884509,2107,1295,630
+1141,Sahil Das,48,F,****5444,Espresso|Mocha|Latte,L,Gluten,Noon,18.524277,73.892089,2199,878,302
+1142,Karan Patel,54,O,****9418,Latte,M,Dairy,Night,18.464629,73.88718,2106,1127,1587
+1143,Nikita Verma,21,O,****4937,Espresso|Hot Cocoa|Cold Coffee,L,Gluten,Night,18.4906,73.804409,2137,801,1118
+1144,Aman Iyer,57,F,****2077,Hot Cocoa,L,Dairy,Noon,18.591038,73.933862,2198,691,1443
+1145,Riya Verma,38,F,****4558,Hot Cocoa|Cold Coffee|Latte,L,Gluten,Night,18.57134,73.929437,2038,694,86
+1146,Rohit Sharma,40,F,****4630,Americano|Cappuccino,S,Dairy,Evening,18.462364,73.875208,2151,590,496
+1147,Aarav Malhotra,32,O,****6353,Cappuccino,M,Dairy,Night,18.456487,73.900023,2002,1227,1902
+1148,Ananya Saxena,59,F,****6440,Espresso|Tea|Cold Coffee,M,Dairy,Morning,18.58567,73.791014,2147,575,1095
+1149,Aarav Deshmukh,44,M,****0363,Tea,M,Nuts,Evening,18.580679,73.778183,2146,1334,219
+1150,Priya Mehta,47,O,****4453,Americano|Cappuccino|Hot Cocoa,M,Dairy,Noon,18.56981,73.829609,2188,1039,1327
+1151,Neha Deshmukh,18,O,****1444,Espresso|Cappuccino,L,Gluten,Night,18.522845,73.790578,2172,295,378
+1152,Isha Verma,38,M,****3788,Tea|Cappuccino,M,Dairy,Evening,18.488711,73.892361,2003,635,1338
+1153,Aman Reddy,21,O,****2964,Hot Cocoa|Cappuccino,M,Dairy,Morning,18.542594,73.927202,2095,1358,452
+1154,Karan Kumar,48,M,****9624,Mocha|Espresso|Americano,L,Gluten,Noon,18.562298,73.885555,2153,267,1076
+1155,Ishaan Malhotra,41,M,****4002,Cappuccino|Latte|Hot Cocoa,L,Nuts,Noon,18.466726,73.913418,2114,338,1393
+1156,Riya Rao,49,M,****5095,Americano|Tea|Latte,M,Nuts,Night,18.513488,73.785938,2119,1477,1652
+1157,Rohit Khilari,43,F,****9977,Espresso,L,None,Morning,18.508192,73.888762,2139,223,1914
+1158,Vivaan Verma,20,F,****7530,Cold Coffee,L,Gluten,Evening,18.599257,73.837897,2097,869,164
+1159,Simran Kumar,59,F,****1397,Tea,L,Nuts,Noon,18.573971,73.897689,2077,1048,1379
+1160,Simran Saxena,52,F,****6542,Espresso,M,Dairy,Noon,18.484504,73.926686,2186,331,65
+1161,Sneha Das,19,M,****8458,Cappuccino,L,None,Night,18.536046,73.889226,2013,601,1516
+1162,Aarav Kapoor,46,M,****2681,Latte,S,Dairy,Noon,18.570926,73.893743,2082,1282,1224
+1163,Priya Reddy,37,M,****7689,Espresso|Americano|Cold Coffee,M,None,Noon,18.540559,73.845052,2127,196,1991
+1164,Aman Kapoor,51,F,****5456,Tea|Cappuccino,M,Gluten,Noon,18.561107,73.852463,2058,715,1756
+1165,Isha Chopra,21,O,****9075,Cold Coffee|Espresso,S,Dairy,Noon,18.493242,73.789351,2116,859,189
+1166,Simran Joshi,21,F,****1031,Latte|Tea|Americano,S,Nuts,Night,18.473822,73.921825,2078,131,433
+1167,Riya Singh,48,M,****3032,Espresso|Americano|Cappuccino,L,Dairy,Evening,18.501306,73.862084,2092,731,535
+1168,Aman Malhotra,49,F,****9779,Americano|Tea|Cold Coffee,S,Dairy,Evening,18.506629,73.866704,2057,398,33
+1169,Neha Bhosale,55,O,****6931,Hot Cocoa|Cappuccino,S,Dairy,Noon,18.501174,73.910038,2128,1227,1340
+1170,Priya Iyer,49,O,****4168,Americano|Espresso|Cappuccino,L,Dairy,Noon,18.462793,73.864147,2048,1210,1314
+1171,Aarav Malhotra,20,M,****6418,Latte|Tea|Americano,M,Nuts,Noon,18.451275,73.800865,2056,1135,933
+1172,Aman Patel,57,O,****2437,Americano|Mocha|Espresso,S,None,Night,18.442296,73.861407,2071,1197,587
+1173,Sahil Malhotra,45,M,****8010,Cold Coffee,S,Nuts,Evening,18.570834,73.819472,2102,261,764
+1174,Varun Chopra,54,M,****1792,Hot Cocoa,L,None,Morning,18.45536,73.837382,2142,1074,114
+1175,Sahil Deshmukh,23,F,****5954,Mocha|Hot Cocoa,S,None,Noon,18.474227,73.915599,2146,1073,555
+1176,Aarav Sharma,35,O,****4109,Latte|Cappuccino|Cold Coffee,S,Nuts,Noon,18.560761,73.890734,2102,257,612
+1177,Ananya Rao,33,O,****9211,Mocha|Espresso,L,Nuts,Morning,18.520527,73.932592,2014,300,895
+1178,Karan Sharma,39,O,****3533,Tea|Americano|Cold Coffee,S,Dairy,Night,18.518897,73.83363,2097,984,380
+1179,Dev Kapoor,23,O,****1302,Cappuccino,S,Dairy,Noon,18.5012,73.902122,2040,897,648
+1180,Aman Singh,23,M,****9662,Mocha|Tea,M,None,Noon,18.454368,73.845657,2143,1236,1049
+1181,Sneha Singh,19,M,****2570,Cappuccino|Hot Cocoa|Tea,M,Gluten,Morning,18.487096,73.838748,2022,1245,1853
+1182,Karan Rao,51,M,****2444,Cold Coffee|Cappuccino,M,Dairy,Evening,18.5193,73.786823,2112,665,862
+1183,Rohit Verma,22,F,****0533,Americano,L,Nuts,Night,18.457516,73.825445,2102,780,1723
+1184,Nikita Kapoor,39,F,****0281,Cold Coffee|Americano,M,Nuts,Night,18.490669,73.931032,2082,696,1505
+1185,Maya Rao,33,F,****6306,Tea|Cold Coffee,S,Nuts,Noon,18.549474,73.864716,2187,1045,1931
+1186,Riya Chopra,36,O,****8554,Americano|Cappuccino,L,Dairy,Noon,18.480829,73.801363,2109,872,151
+1187,Ishaan Das,48,O,****1198,Tea|Hot Cocoa|Latte,M,None,Morning,18.563433,73.881916,2091,440,1325
+1188,Nikita Patel,54,O,****9909,Tea|Americano|Cold Coffee,M,None,Morning,18.456177,73.81222,2192,1162,1142
+1189,Dev Rao,32,F,****7828,Americano|Tea,L,Nuts,Evening,18.600032,73.853943,2076,951,1885
+1190,Vivaan Singh,27,F,****9710,Americano|Tea,S,Gluten,Evening,18.516586,73.846807,2179,1026,653
+1191,Vivaan Mehta,20,O,****1865,Mocha,L,None,Noon,18.589188,73.895178,2133,457,1130
+1192,Ananya Gupta,53,F,****6873,Tea,L,Nuts,Noon,18.542877,73.845842,2008,1357,1808
+1193,Riya Chopra,55,F,****9245,Espresso,S,Dairy,Morning,18.532776,73.90462,2138,482,749
+1194,Priya Joshi,47,M,****9808,Americano|Hot Cocoa|Mocha,M,Gluten,Night,18.534321,73.832368,2118,1364,353
+1195,Rohit Das,55,M,****2704,Mocha,S,Nuts,Evening,18.459112,73.836429,2037,1146,795
+1196,Sneha Das,26,O,****5439,Cold Coffee|Espresso,L,Nuts,Noon,18.518743,73.799147,2081,1023,1268
+1197,Aarav Nair,18,F,****3034,Tea,L,Gluten,Night,18.549951,73.843201,2114,1100,342
+1198,Vivaan Rao,19,M,****9152,Hot Cocoa,S,Dairy,Noon,18.565318,73.867204,2198,1114,1125
+1199,Arjun Singh,54,M,****3522,Mocha|Hot Cocoa|Latte,L,Gluten,Noon,18.598764,73.793087,2168,606,609
+1200,Aarav Chopra,34,F,****9799,Americano,S,Nuts,Noon,18.570112,73.870768,2090,1349,1295
+1201,Sneha Deshmukh,57,M,****5534,Espresso,S,Dairy,Evening,18.535897,73.80364,2181,699,592
+1202,Dev Iyer,50,O,****3837,Cold Coffee,M,None,Evening,18.579128,73.797002,2034,611,299
+1203,Priya Reddy,43,F,****5630,Hot Cocoa|Mocha|Espresso,M,Gluten,Morning,18.54178,73.91752,2024,925,1055
+1204,Neha Nair,47,F,****4185,Latte|Tea|Mocha,S,Gluten,Evening,18.576417,73.904008,2102,546,1982
+1205,Sneha Joshi,49,F,****3808,Mocha|Hot Cocoa,L,Nuts,Night,18.566529,73.919765,2196,199,94
+1206,Aditya Chopra,19,M,****0944,Americano,M,None,Night,18.472771,73.886875,2034,1431,618
+1207,Ananya Iyer,23,O,****4547,Cappuccino|Cold Coffee,L,Nuts,Morning,18.503815,73.825581,2180,579,879
+1208,Vivaan Singh,18,M,****7311,Cold Coffee,L,Nuts,Night,18.441886,73.887996,2031,964,1421
+1209,Isha Verma,22,M,****8205,Cappuccino,S,Dairy,Evening,18.581358,73.798641,2199,372,1313
+1210,Isha Sharma,51,O,****9680,Cold Coffee|Espresso|Americano,L,Nuts,Noon,18.587583,73.875272,2114,544,177
+1211,Aditya Kumar,25,O,****1357,Mocha|Espresso,M,Nuts,Noon,18.484715,73.79018,2142,1330,1228
+1212,Nikita Mehta,19,O,****2287,Espresso|Hot Cocoa,L,Nuts,Night,18.487687,73.785431,2062,1113,790
+1213,Aditya Reddy,49,O,****7239,Latte,M,Dairy,Noon,18.502294,73.910936,2108,848,1118
+1214,Ananya Verma,22,M,****6755,Latte,M,Nuts,Morning,18.588013,73.928489,2102,1137,586
+1215,Arjun Saxena,45,O,****2087,Cold Coffee,M,None,Evening,18.453043,73.924048,2040,1198,669
+1216,Varun Rao,58,O,****7972,Cappuccino|Cold Coffee|Mocha,M,Nuts,Morning,18.479517,73.92464,2030,1028,1253
+1217,Nikita Patel,37,O,****7342,Cold Coffee|Latte|Tea,L,Nuts,Morning,18.466613,73.929183,2134,1159,1603
+1218,Neha Deshmukh,41,M,****6256,Cappuccino|Tea,S,Dairy,Night,18.483917,73.78692,2183,1280,1285
+1219,Vivaan Verma,47,O,****0089,Americano,L,Nuts,Evening,18.46557,73.900433,2147,1480,1480
+1220,Aditya Reddy,50,M,****5340,Espresso,S,Gluten,Evening,18.501677,73.800714,2010,1232,1644
+1221,Sneha Reddy,38,M,****2114,Mocha|Cold Coffee|Latte,L,Dairy,Morning,18.520727,73.921011,2046,557,1647
+1222,Arjun Patel,43,M,****2173,Hot Cocoa|Tea,M,Dairy,Morning,18.528895,73.777975,2052,697,1154
+1223,Rohit Das,33,F,****0792,Americano|Tea|Cappuccino,L,Nuts,Noon,18.44142,73.842306,2060,1209,709
+1224,Sahil Gupta,18,O,****2022,Hot Cocoa|Latte|Cappuccino,L,Nuts,Night,18.519125,73.786283,2037,673,190
+1225,Aarav Reddy,51,F,****8635,Americano|Mocha,S,None,Noon,18.542355,73.839796,2152,1262,127
+1226,Sneha Kumar,33,F,****6885,Tea|Mocha,L,Dairy,Evening,18.512841,73.814078,2052,378,1597
+1227,Dev Singh,27,M,****6293,Americano|Cold Coffee,M,None,Evening,18.594742,73.809922,2079,1048,542
+1228,Aditya Sharma,28,O,****8350,Latte|Cappuccino|Cold Coffee,S,None,Noon,18.595344,73.840099,2013,1486,612
+1229,Neha Deshmukh,19,F,****1165,Espresso|Latte,M,None,Noon,18.459833,73.786567,2200,555,267
+1230,Riya Kapoor,41,O,****6838,Cappuccino|Hot Cocoa|Tea,M,None,Morning,18.599946,73.80834,2166,1008,1657
+1231,Isha Sharma,39,M,****4821,Latte|Cappuccino,L,Gluten,Night,18.51978,73.837937,2110,453,724
+1232,Riya Deshmukh,35,F,****1124,Latte,L,Nuts,Evening,18.520223,73.917945,2123,224,179
+1233,Neha Kapoor,26,F,****6184,Espresso|Mocha|Hot Cocoa,S,Gluten,Evening,18.51715,73.90173,2089,1258,1028
+1234,Priya Kapoor,35,M,****4900,Espresso|Latte,M,None,Night,18.525109,73.899395,2060,426,205
+1235,Karan Reddy,35,O,****9512,Latte|Tea|Cappuccino,L,Gluten,Evening,18.590033,73.935347,2045,460,484
+1236,Dev Gupta,40,O,****6569,Mocha|Hot Cocoa|Tea,S,Nuts,Night,18.52714,73.804789,2010,284,115
+1237,Karan Das,32,M,****9791,Latte|Cold Coffee,L,Nuts,Noon,18.494921,73.805094,2083,221,44
+1238,Isha Rao,27,M,****1933,Mocha|Latte|Cold Coffee,L,Gluten,Morning,18.49425,73.828317,2041,994,1621
+1239,Maya Gupta,29,O,****8543,Mocha|Cappuccino|Americano,L,Nuts,Night,18.489492,73.88686,2033,463,1492
+1240,Sahil Rao,43,O,****0706,Mocha,L,Nuts,Morning,18.59027,73.799203,2191,259,487
+1241,Aman Gupta,28,O,****5378,Mocha,M,None,Evening,18.473949,73.887608,2090,625,1611
+1242,Aditya Khilari,21,F,****5289,Tea|Cappuccino|Espresso,M,Gluten,Evening,18.527764,73.792929,2123,1283,1333
+1243,Karan Deshmukh,46,M,****8631,Hot Cocoa,S,Dairy,Evening,18.592666,73.788572,2044,868,329
+1244,Vivaan Bhosale,23,F,****5435,Americano|Mocha|Latte,M,Nuts,Night,18.465537,73.792901,2053,489,838
+1245,Simran Bhosale,34,O,****3096,Espresso|Latte,S,Gluten,Night,18.464974,73.834433,2110,279,603
+1246,Nikita Verma,30,M,****3490,Cold Coffee,L,Dairy,Morning,18.516171,73.795181,2102,1064,1001
+1247,Neha Sharma,59,O,****4074,Mocha,M,Dairy,Noon,18.511724,73.818827,2120,639,463
+1248,Neha Rao,21,M,****6333,Cappuccino|Latte|Mocha,M,Gluten,Noon,18.528976,73.911228,2134,957,1977
+1249,Simran Verma,54,M,****2735,Cappuccino|Espresso,L,None,Noon,18.459645,73.89785,2045,442,1990
+1250,Riya Joshi,26,M,****5339,Tea,S,Nuts,Evening,18.49156,73.893036,2018,278,794
+1251,Simran Kapoor,53,F,****3210,Americano|Tea,S,Gluten,Morning,18.506711,73.800412,2151,1293,1553
+1252,Aditya Singh,54,M,****7944,Mocha|Espresso,M,Gluten,Night,18.531924,73.852387,2045,664,825
+1253,Isha Das,56,O,****3102,Latte|Espresso,M,Nuts,Morning,18.55972,73.924034,2096,141,691
+1254,Rohit Mehta,35,F,****2577,Cappuccino|Tea|Americano,S,Dairy,Night,18.564245,73.828039,2187,953,1238
+1255,Vivaan Joshi,46,M,****1007,Americano|Tea,L,Dairy,Morning,18.522843,73.802136,2080,1137,826
+1256,Isha Malhotra,54,M,****9068,Espresso,S,Nuts,Morning,18.513432,73.923585,2181,507,561
+1257,Aman Chopra,50,F,****6083,Latte,S,Dairy,Night,18.535447,73.805113,2122,1301,1129
+1258,Aman Nair,28,F,****0892,Cappuccino|Cold Coffee|Latte,M,None,Noon,18.577011,73.901473,2055,553,1325
+1259,Karan Joshi,35,O,****5006,Latte|Tea|Mocha,S,Gluten,Noon,18.543979,73.872883,2003,558,516
+1260,Nikita Mehta,59,F,****9083,Mocha|Espresso,M,Nuts,Night,18.488743,73.860002,2160,913,1197
+1261,Aditya Khilari,50,O,****9241,Hot Cocoa|Cold Coffee,L,None,Night,18.450614,73.934838,2164,765,1764
+1262,Neha Iyer,59,O,****9065,Hot Cocoa|Cappuccino|Tea,L,Nuts,Morning,18.569269,73.905078,2154,927,1352
+1263,Priya Kumar,19,O,****0001,Hot Cocoa|Espresso,M,Gluten,Morning,18.533684,73.935861,2049,802,1487
+1264,Karan Bhosale,58,F,****5420,Mocha|Hot Cocoa|Cold Coffee,S,Nuts,Evening,18.456016,73.797171,2067,1244,1562
+1265,Ananya Gupta,59,M,****2889,Espresso|Mocha,M,Gluten,Evening,18.499869,73.870391,2119,341,963
+1266,Aarav Rao,55,O,****7315,Espresso|Hot Cocoa,S,Gluten,Evening,18.506497,73.916036,2039,381,410
+1267,Priya Saxena,54,F,****5761,Cold Coffee|Tea,S,Gluten,Evening,18.541365,73.804992,2163,218,9
+1268,Ishaan Iyer,31,M,****4770,Americano,S,Nuts,Night,18.541758,73.841243,2123,885,9
+1269,Aarav Bhosale,30,O,****4581,Mocha,L,Nuts,Morning,18.54868,73.87697,2064,563,1420
+1270,Aman Mehta,26,M,****4185,Hot Cocoa|Cappuccino|Latte,S,Dairy,Evening,18.513348,73.859946,2135,791,888
+1271,Isha Gupta,49,F,****0477,Cold Coffee,M,None,Noon,18.476291,73.934281,2055,144,1207
+1272,Arjun Deshmukh,25,F,****8641,Latte|Espresso|Mocha,M,None,Morning,18.546315,73.881271,2006,198,1412
+1273,Aditya Saxena,46,F,****9191,Hot Cocoa|Espresso|Mocha,S,Nuts,Morning,18.488579,73.882566,2170,1165,552
+1274,Nikita Das,26,F,****6567,Cappuccino,M,None,Morning,18.520038,73.87414,2200,638,1702
+1275,Arjun Joshi,40,O,****2403,Cold Coffee|Latte,L,Gluten,Noon,18.550513,73.853606,2061,105,26
+1276,Vivaan Singh,54,O,****0166,Cappuccino,L,None,Morning,18.585165,73.879794,2117,706,540
+1277,Ishaan Patel,24,M,****1161,Hot Cocoa,M,Dairy,Night,18.558566,73.7919,2195,193,19
+1278,Isha Deshmukh,39,F,****1718,Hot Cocoa|Mocha,S,Dairy,Evening,18.469659,73.840824,2117,656,1711
+1279,Varun Verma,44,O,****8274,Cappuccino,S,None,Noon,18.456994,73.922496,2124,1265,1389
+1280,Ishaan Deshmukh,57,F,****1291,Latte|Tea,L,Nuts,Night,18.587664,73.79477,2106,1002,94
+1281,Vivaan Iyer,59,F,****1672,Espresso|Mocha|Cold Coffee,L,None,Night,18.546274,73.816472,2089,1459,1385
+1282,Varun Kumar,53,O,****9922,Cold Coffee,L,Gluten,Night,18.579507,73.788678,2126,756,493
+1283,Priya Iyer,21,O,****9305,Tea|Espresso|Cappuccino,S,Gluten,Night,18.568602,73.848396,2128,1015,647
+1284,Aditya Verma,59,M,****2429,Tea|Latte,L,None,Morning,18.567085,73.930807,2164,723,1822
+1285,Arjun Bhosale,31,O,****0117,Mocha|Cold Coffee,S,Nuts,Night,18.493516,73.899487,2154,1068,1467
+1286,Aman Chopra,25,M,****3588,Espresso|Latte|Cold Coffee,M,Dairy,Evening,18.552735,73.784024,2043,1108,287
+1287,Sneha Singh,34,O,****9078,Cappuccino,M,Nuts,Night,18.572329,73.807193,2087,320,1550
+1288,Sneha Patel,58,O,****1115,Americano,M,Nuts,Night,18.441094,73.894494,2142,986,1717
+1289,Dev Verma,50,M,****3609,Cold Coffee|Mocha|Cappuccino,S,Gluten,Evening,18.521058,73.838246,2156,608,560
+1290,Varun Gupta,36,F,****4020,Cold Coffee,M,Dairy,Evening,18.5543,73.926382,2162,545,411
+1291,Riya Das,36,O,****6153,Cold Coffee|Mocha|Tea,S,Dairy,Morning,18.562124,73.866665,2150,1268,1930
+1292,Sneha Bhosale,36,F,****0655,Cappuccino,S,Gluten,Noon,18.44889,73.785757,2069,429,586
+1293,Neha Kumar,21,O,****7348,Espresso|Tea,L,None,Evening,18.570644,73.793097,2173,1250,1771
+1294,Karan Bhosale,42,M,****8641,Hot Cocoa|Mocha|Tea,S,Gluten,Night,18.507051,73.902798,2176,740,1978
+1295,Simran Patel,18,O,****5484,Americano,S,Dairy,Noon,18.564583,73.930986,2076,1019,363
+1296,Vivaan Deshmukh,29,O,****8859,Tea,S,Gluten,Evening,18.529456,73.797511,2150,622,11
+1297,Priya Chopra,27,M,****7749,Latte|Tea,L,Dairy,Night,18.566785,73.864726,2019,750,1076
+1298,Karan Deshmukh,51,M,****8354,Cold Coffee|Espresso|Hot Cocoa,L,Gluten,Morning,18.496304,73.918043,2170,779,678
+1299,Aman Mehta,31,O,****8855,Latte|Americano,L,Dairy,Night,18.478856,73.879462,2160,599,1963
+1300,Aarav Gupta,42,M,****1133,Hot Cocoa|Latte,L,Dairy,Night,18.518289,73.824129,2167,494,656
+1301,Arjun Sharma,24,M,****4435,Latte|Mocha|Americano,S,Nuts,Night,18.574106,73.809593,2180,991,1324
+1302,Vivaan Kumar,19,F,****1458,Latte|Americano,S,None,Noon,18.567474,73.865993,2148,566,1865
+1303,Neha Saxena,42,F,****0635,Tea|Cold Coffee,S,Gluten,Morning,18.525973,73.879328,2159,229,1548
+1304,Dev Patel,22,F,****3682,Cappuccino|Cold Coffee|Mocha,M,None,Evening,18.562844,73.846728,2102,1453,63
+1305,Maya Deshmukh,52,M,****8473,Tea|Americano|Hot Cocoa,M,Nuts,Evening,18.548766,73.922967,2187,1426,764
+1306,Sahil Bhosale,53,M,****2744,Latte,L,Gluten,Morning,18.489151,73.896427,2186,804,433
+1307,Sneha Malhotra,27,M,****0682,Hot Cocoa,S,None,Noon,18.547756,73.867467,2014,1224,944
+1308,Simran Sharma,36,O,****0209,Cappuccino|Americano,L,Gluten,Evening,18.497542,73.884107,2061,304,583
+1309,Nikita Sharma,30,F,****9527,Mocha|Hot Cocoa,L,Dairy,Noon,18.530888,73.835019,2081,977,345
+1310,Sahil Gupta,33,M,****7990,Tea|Cold Coffee|Americano,S,Dairy,Night,18.514456,73.834099,2079,1097,1129
+1311,Aditya Deshmukh,59,O,****8583,Cold Coffee|Hot Cocoa,S,Dairy,Morning,18.556788,73.919437,2130,1393,63
+1312,Dev Rao,43,O,****0041,Hot Cocoa,L,Gluten,Noon,18.498931,73.812429,2198,1307,1501
+1313,Rohit Kumar,47,O,****0705,Tea,M,None,Noon,18.576077,73.905746,2158,439,1550
+1314,Arjun Kumar,46,M,****5674,Cold Coffee|Mocha|Tea,M,Dairy,Morning,18.475411,73.854723,2017,641,756
+1315,Karan Patel,60,M,****5031,Tea|Espresso,M,None,Morning,18.597294,73.828551,2181,1167,1297
+1316,Neha Iyer,55,O,****4801,Tea,L,Gluten,Evening,18.534429,73.920416,2020,1158,515
+1317,Varun Reddy,51,F,****1345,Americano|Tea,M,None,Noon,18.510784,73.813499,2132,1417,575
+1318,Riya Kumar,29,M,****3925,Cappuccino|Mocha|Americano,M,Dairy,Morning,18.517443,73.85331,2054,1309,330
+1319,Sneha Khilari,33,M,****5592,Cold Coffee|Cappuccino|Mocha,L,None,Noon,18.449346,73.818022,2047,1158,1962
+1320,Varun Das,54,O,****3108,Hot Cocoa|Latte|Cappuccino,M,Gluten,Night,18.467691,73.909558,2154,392,1627
+1321,Dev Deshmukh,57,O,****2597,Cold Coffee|Mocha,L,Dairy,Night,18.535845,73.787715,2097,889,270
+1322,Aditya Khilari,30,O,****9549,Tea|Americano|Cappuccino,L,None,Noon,18.516539,73.87506,2010,1188,1030
+1323,Aditya Sharma,48,O,****9527,Latte|Tea|Mocha,L,Gluten,Night,18.49966,73.78365,2136,978,469
+1324,Maya Kapoor,40,O,****5258,Cappuccino|Espresso|Americano,M,Gluten,Noon,18.586014,73.790111,2154,1213,836
+1325,Neha Joshi,18,O,****3467,Cappuccino,L,None,Night,18.545127,73.886743,2081,937,741
+1326,Aditya Kumar,45,O,****6453,Hot Cocoa|Tea,L,Gluten,Evening,18.538301,73.935388,2102,517,846
+1327,Simran Bhosale,48,M,****3146,Americano|Cold Coffee|Tea,L,Dairy,Night,18.558125,73.9135,2169,343,1531
+1328,Karan Chopra,28,M,****2673,Tea|Americano|Cold Coffee,L,None,Noon,18.502657,73.87844,2024,397,965
+1329,Nikita Saxena,23,M,****2880,Mocha,S,None,Night,18.58931,73.840803,2168,1167,586
+1330,Nikita Patel,29,O,****4004,Latte|Cappuccino,L,Dairy,Noon,18.445777,73.872622,2133,574,1259
+1331,Ananya Patel,41,M,****1425,Cold Coffee,S,Dairy,Night,18.4969,73.839923,2151,510,1060
+1332,Sahil Sharma,23,O,****2873,Mocha|Cold Coffee|Tea,S,Nuts,Night,18.589154,73.868685,2067,458,833
+1333,Arjun Singh,53,M,****3782,Mocha|Latte,L,Dairy,Evening,18.551471,73.931269,2145,1090,1576
+1334,Karan Gupta,47,O,****4805,Latte|Espresso|Americano,M,None,Night,18.541786,73.935772,2174,570,1638
+1335,Priya Saxena,40,O,****1857,Hot Cocoa,S,Dairy,Morning,18.504229,73.896506,2088,255,1135
+1336,Ananya Verma,38,F,****3594,Hot Cocoa|Cappuccino|Mocha,L,Nuts,Night,18.558338,73.814278,2062,643,423
+1337,Karan Joshi,33,O,****1482,Cappuccino,S,None,Night,18.538612,73.898979,2139,186,1736
+1338,Maya Nair,57,F,****6448,Hot Cocoa|Espresso|Cappuccino,L,Dairy,Night,18.475935,73.868966,2014,1176,1636
+1339,Sneha Verma,52,M,****8648,Tea|Americano,L,Nuts,Night,18.596641,73.888419,2118,746,1411
+1340,Sahil Khilari,31,F,****2830,Mocha,M,Dairy,Noon,18.52817,73.814642,2121,1355,702
+1341,Aman Deshmukh,49,F,****7528,Mocha|Cold Coffee,M,Dairy,Night,18.469182,73.797682,2148,568,1667
+1342,Aditya Iyer,33,O,****1344,Espresso|Cappuccino,L,Nuts,Night,18.569307,73.804957,2128,375,1829
+1343,Arjun Bhosale,38,F,****9250,Latte|Espresso,S,Nuts,Morning,18.474875,73.817386,2162,297,921
+1344,Priya Iyer,41,F,****1267,Hot Cocoa|Cold Coffee|Latte,M,None,Evening,18.579179,73.930799,2051,1281,1179
+1345,Simran Deshmukh,36,F,****3037,Americano|Tea|Mocha,M,None,Night,18.538586,73.8509,2038,443,1311
+1346,Priya Saxena,58,O,****1169,Cappuccino|Latte,S,Dairy,Noon,18.490557,73.881182,2182,647,1239
+1347,Varun Iyer,46,F,****6674,Americano|Espresso|Cappuccino,S,None,Noon,18.556844,73.882624,2191,263,431
+1348,Ananya Kapoor,24,M,****6565,Latte|Americano,M,None,Morning,18.482392,73.801544,2168,898,633
+1349,Karan Reddy,36,F,****8518,Cold Coffee,L,Nuts,Morning,18.446025,73.833795,2084,1075,956
+1350,Simran Iyer,53,F,****8524,Cold Coffee|Hot Cocoa|Tea,M,Gluten,Evening,18.585828,73.853764,2059,283,904
+1351,Rohit Nair,44,F,****0433,Latte|Americano,L,Nuts,Evening,18.486282,73.862316,2177,1107,1939
+1352,Maya Mehta,18,F,****8156,Espresso|Tea,S,Dairy,Noon,18.506278,73.866389,2102,611,334
+1353,Varun Kapoor,32,F,****0803,Espresso|Hot Cocoa,L,Dairy,Evening,18.544153,73.861811,2069,945,385
+1354,Vivaan Deshmukh,26,F,****4225,Americano|Hot Cocoa|Espresso,M,Gluten,Noon,18.491703,73.801044,2137,145,380
+1355,Aditya Mehta,35,M,****5795,Latte|Cappuccino,S,Nuts,Morning,18.519373,73.831406,2080,1120,760
+1356,Ishaan Patel,39,M,****0942,Latte,M,Gluten,Morning,18.527311,73.805757,2065,881,1696
+1357,Sahil Singh,33,F,****6889,Espresso|Mocha,S,Nuts,Night,18.558052,73.791734,2171,526,968
+1358,Varun Mehta,38,M,****9969,Latte|Mocha|Hot Cocoa,L,None,Evening,18.517397,73.82451,2093,206,1768
+1359,Riya Singh,33,O,****7523,Latte|Cappuccino,M,None,Night,18.566663,73.778129,2011,1290,1604
+1360,Maya Das,27,F,****6977,Espresso,S,Gluten,Morning,18.550151,73.830848,2195,1380,122
+1361,Aarav Nair,59,M,****5356,Cappuccino|Americano|Espresso,S,Dairy,Evening,18.569284,73.846895,2050,143,1411
+1362,Varun Nair,26,F,****2100,Americano,L,Gluten,Evening,18.527237,73.855115,2146,482,1113
+1363,Aman Gupta,47,F,****4806,Cold Coffee|Latte|Hot Cocoa,S,Gluten,Evening,18.571507,73.863357,2117,101,1589
+1364,Arjun Kapoor,29,M,****4962,Espresso|Cold Coffee,L,None,Night,18.470779,73.886016,2197,1229,315
+1365,Nikita Mehta,38,F,****5352,Cappuccino|Latte,L,None,Morning,18.574031,73.797464,2009,513,219
+1366,Maya Joshi,24,M,****9661,Tea|Mocha|Espresso,L,Dairy,Morning,18.499017,73.873653,2019,126,1905
+1367,Riya Verma,23,F,****8617,Latte|Cold Coffee|Hot Cocoa,L,Gluten,Evening,18.56748,73.786028,2158,644,1083
+1368,Aarav Sharma,37,M,****0924,Cappuccino|Latte|Mocha,S,Gluten,Noon,18.471299,73.8818,2146,1380,1940
+1369,Ananya Bhosale,53,F,****7771,Mocha,L,Gluten,Night,18.581652,73.803389,2047,1226,822
+1370,Arjun Gupta,60,M,****1266,Americano|Cold Coffee|Tea,L,Dairy,Evening,18.506375,73.878019,2186,762,1246
+1371,Karan Rao,52,M,****0908,Hot Cocoa|Cold Coffee|Espresso,M,Gluten,Morning,18.55661,73.933973,2153,133,1060
+1372,Isha Mehta,18,F,****9032,Mocha,S,Dairy,Noon,18.455486,73.850359,2040,383,542
+1373,Aman Rao,33,M,****9723,Cappuccino|Hot Cocoa,M,Nuts,Morning,18.556173,73.903565,2045,1099,1691
+1374,Dev Singh,56,O,****4802,Tea,S,None,Evening,18.496069,73.907443,2107,346,1781
+1375,Karan Das,18,O,****6883,Tea|Latte|Cold Coffee,L,None,Evening,18.526789,73.800633,2129,552,313
+1376,Aarav Kapoor,46,O,****5194,Cappuccino|Americano|Espresso,M,Gluten,Noon,18.46155,73.789907,2147,200,1122
+1377,Varun Iyer,23,F,****8465,Cold Coffee|Tea,S,Gluten,Noon,18.518458,73.88106,2051,1249,1261
+1378,Arjun Reddy,33,M,****1368,Mocha|Americano,L,None,Morning,18.54788,73.844466,2090,490,656
+1379,Aman Das,59,M,****8998,Cold Coffee|Americano,L,Gluten,Noon,18.510874,73.924574,2060,508,1403
+1380,Aman Kumar,23,M,****9729,Espresso,L,Nuts,Evening,18.442597,73.887707,2029,724,921
+1381,Maya Khilari,39,M,****2888,Espresso|Cappuccino|Hot Cocoa,L,Dairy,Night,18.540087,73.935468,2178,1468,37
+1382,Varun Rao,60,O,****8450,Cold Coffee|Latte,M,Nuts,Evening,18.448894,73.881461,2003,236,795
+1383,Neha Nair,24,M,****4734,Tea|Cappuccino|Espresso,L,None,Evening,18.517946,73.872237,2023,481,407
+1384,Arjun Chopra,53,O,****3060,Espresso,L,Dairy,Evening,18.518789,73.895803,2005,810,1401
+1385,Aman Nair,58,F,****2930,Hot Cocoa|Tea|Latte,L,Dairy,Night,18.582864,73.907077,2008,1236,1943
+1386,Neha Reddy,27,F,****4663,Cold Coffee|Latte,L,Gluten,Noon,18.507173,73.868364,2110,739,1863
+1387,Nikita Gupta,46,O,****9248,Cold Coffee,L,Nuts,Noon,18.48984,73.889522,2135,376,880
+1388,Isha Rao,28,F,****4771,Cappuccino|Americano|Cold Coffee,S,None,Evening,18.581221,73.842946,2106,721,907
+1389,Neha Kumar,30,M,****6317,Latte,L,Dairy,Noon,18.535818,73.813646,2007,835,162
+1390,Maya Kumar,50,O,****0974,Mocha|Cappuccino|Espresso,M,Gluten,Noon,18.466606,73.812904,2105,130,1895
+1391,Neha Saxena,32,O,****4854,Espresso,S,Nuts,Night,18.579141,73.855091,2084,1037,1817
+1392,Karan Saxena,43,M,****9821,Tea|Mocha|Cold Coffee,M,None,Morning,18.512658,73.909022,2011,603,1062
+1393,Simran Kapoor,20,O,****5279,Latte|Cappuccino|Cold Coffee,M,Gluten,Evening,18.564188,73.822446,2043,965,602
+1394,Nikita Patel,51,M,****4108,Americano|Latte|Mocha,L,None,Noon,18.564997,73.926755,2179,1219,277
+1395,Varun Saxena,38,F,****9178,Americano,L,Nuts,Night,18.454829,73.828552,2167,435,1471
+1396,Aditya Sharma,25,O,****7877,Mocha|Latte|Hot Cocoa,L,Gluten,Noon,18.500989,73.837597,2197,449,1868
+1397,Priya Rao,60,M,****9423,Cold Coffee,L,None,Night,18.48969,73.893526,2115,691,1282
+1398,Ananya Singh,26,M,****3417,Hot Cocoa|Latte|Espresso,M,Gluten,Morning,18.537677,73.855655,2056,1305,1350
+1399,Maya Chopra,44,F,****0383,Latte|Cappuccino|Hot Cocoa,M,Nuts,Morning,18.469974,73.78551,2090,175,297
+1400,Aarav Rao,56,F,****7819,Latte,S,Gluten,Noon,18.466214,73.822201,2170,1318,1172
+1401,Simran Deshmukh,47,O,****0320,Latte|Americano,M,Dairy,Evening,18.584005,73.907942,2195,975,1727
+1402,Simran Sharma,36,F,****7442,Hot Cocoa,M,Gluten,Noon,18.551733,73.874629,2028,1270,1494
+1403,Arjun Sharma,48,O,****6897,Hot Cocoa|Espresso|Americano,M,Dairy,Evening,18.588737,73.874986,2128,1164,1493
+1404,Maya Verma,29,O,****2959,Hot Cocoa|Cappuccino|Latte,S,None,Night,18.540474,73.795568,2054,1360,849
+1405,Sneha Patel,39,F,****1560,Espresso|Latte|Mocha,S,Dairy,Evening,18.566831,73.825944,2130,1226,663
+1406,Sahil Singh,39,F,****4727,Latte|Tea|Cappuccino,S,Dairy,Evening,18.587965,73.853357,2122,172,1322
+1407,Isha Verma,27,O,****4739,Mocha|Espresso|Tea,L,None,Evening,18.530791,73.885212,2143,1197,38
+1408,Riya Rao,39,F,****5709,Hot Cocoa,S,Dairy,Night,18.540642,73.911485,2147,1340,797
+1409,Ananya Das,25,F,****3798,Latte|Cold Coffee,M,None,Night,18.580728,73.836153,2078,542,1075
+1410,Rohit Deshmukh,25,F,****7184,Espresso,S,Gluten,Morning,18.568244,73.921493,2040,489,696
+1411,Maya Malhotra,37,F,****1882,Cold Coffee,S,None,Night,18.502414,73.91507,2030,108,636
+1412,Aarav Das,23,F,****4182,Cappuccino,L,Dairy,Morning,18.53281,73.826643,2054,757,410
+1413,Riya Mehta,35,O,****4477,Cappuccino|Cold Coffee,S,Nuts,Evening,18.458714,73.930028,2144,1152,209
+1414,Riya Bhosale,40,O,****0569,Cold Coffee|Mocha,M,Nuts,Noon,18.451799,73.874822,2087,1207,908
+1415,Aarav Kumar,19,F,****2833,Latte|Americano|Espresso,S,None,Night,18.503107,73.889448,2152,1389,1712
+1416,Ishaan Das,40,F,****8867,Cappuccino,M,Nuts,Morning,18.570456,73.92385,2120,299,933
+1417,Rohit Chopra,48,M,****7471,Hot Cocoa,M,Gluten,Noon,18.552338,73.883129,2084,1028,998
+1418,Sahil Sharma,48,M,****6707,Americano|Tea,S,Dairy,Evening,18.53711,73.797083,2027,930,1674
+1419,Aditya Gupta,53,O,****4050,Americano|Espresso,L,Gluten,Noon,18.53974,73.864372,2124,886,135
+1420,Priya Joshi,55,F,****0718,Mocha|Hot Cocoa,L,Nuts,Noon,18.546418,73.789163,2183,1275,1713
+1421,Maya Singh,55,O,****4149,Cappuccino|Tea,M,Nuts,Evening,18.593341,73.787837,2028,1321,1579
+1422,Varun Gupta,49,O,****6515,Cappuccino,S,Nuts,Morning,18.561532,73.882441,2116,1188,596
+1423,Varun Das,54,F,****5433,Mocha,M,Dairy,Night,18.555247,73.923119,2023,1293,16
+1424,Nikita Malhotra,43,M,****0464,Latte|Cold Coffee,L,None,Morning,18.552937,73.908021,2092,324,1763
+1425,Rohit Khilari,33,F,****5004,Tea|Mocha|Cold Coffee,L,Gluten,Night,18.50145,73.863919,2170,455,972
+1426,Isha Joshi,53,F,****6190,Tea|Cappuccino,M,Nuts,Noon,18.442256,73.880442,2037,1096,1347
+1427,Sneha Kumar,23,M,****3056,Americano|Tea,L,Gluten,Noon,18.513103,73.84456,2116,887,727
+1428,Karan Deshmukh,45,O,****7894,Americano|Tea|Mocha,S,Dairy,Night,18.58865,73.868916,2009,177,1163
+1429,Maya Nair,25,O,****2023,Cappuccino|Americano|Mocha,L,Dairy,Night,18.523112,73.860437,2157,281,502
+1430,Maya Sharma,58,O,****1458,Hot Cocoa|Americano|Latte,M,None,Night,18.513046,73.921669,2147,778,862
+1431,Aman Mehta,36,M,****1259,Hot Cocoa|Mocha|Americano,M,None,Night,18.532903,73.868358,2169,697,1656
+1432,Nikita Khilari,36,F,****4622,Cappuccino,M,Dairy,Noon,18.538928,73.820735,2066,129,1518
+1433,Aditya Das,29,O,****0026,Americano,M,Nuts,Evening,18.565604,73.814491,2047,1180,1765
+1434,Aarav Gupta,23,M,****0592,Americano,M,Gluten,Noon,18.546107,73.89286,2043,531,1183
+1435,Aman Patel,59,F,****4689,Latte,S,Gluten,Night,18.516597,73.852903,2193,1190,478
+1436,Varun Kapoor,48,F,****3446,Tea|Latte|Cold Coffee,M,Gluten,Evening,18.594282,73.88596,2011,299,1879
+1437,Simran Nair,45,O,****0106,Hot Cocoa|Cold Coffee|Tea,M,None,Evening,18.545095,73.839285,2198,1482,1534
+1438,Karan Rao,30,O,****7576,Cold Coffee|Americano|Hot Cocoa,S,None,Morning,18.442314,73.792332,2027,1013,719
+1439,Karan Mehta,34,M,****2071,Cappuccino,S,Nuts,Morning,18.553692,73.795896,2155,366,769
+1440,Dev Deshmukh,25,O,****0884,Hot Cocoa|Espresso,L,None,Night,18.588031,73.820921,2110,1467,1576
+1441,Priya Iyer,28,M,****5164,Tea,M,Dairy,Morning,18.481718,73.906748,2046,1002,142
+1442,Maya Joshi,57,F,****0816,Americano|Latte|Cappuccino,L,Gluten,Noon,18.538635,73.7937,2114,630,211
+1443,Aarav Sharma,22,O,****5659,Americano|Latte,M,Nuts,Morning,18.589663,73.883037,2069,410,1433
+1444,Priya Kapoor,54,M,****8287,Americano|Espresso|Tea,M,None,Noon,18.440929,73.929365,2200,1087,248
+1445,Dev Bhosale,40,F,****5550,Tea|Latte,L,None,Evening,18.52594,73.930448,2021,1041,1557
+1446,Rohit Joshi,29,O,****1531,Espresso|Cold Coffee,L,Gluten,Morning,18.541299,73.834182,2022,1395,896
+1447,Riya Kumar,20,M,****5036,Espresso|Americano|Tea,S,Dairy,Night,18.52583,73.91018,2116,133,75
+1448,Priya Patel,39,O,****1754,Cappuccino|Americano,L,Gluten,Noon,18.558968,73.813978,2019,175,1506
+1449,Isha Verma,59,M,****8226,Latte|Cappuccino|Mocha,L,Nuts,Morning,18.46796,73.784693,2079,299,934
+1450,Nikita Deshmukh,55,M,****6253,Cappuccino,M,Nuts,Morning,18.569113,73.844894,2189,1489,823
+1451,Priya Singh,54,O,****6327,Espresso|Tea,S,Nuts,Evening,18.450516,73.820523,2194,950,344
+1452,Aman Bhosale,28,F,****1400,Latte|Cappuccino|Americano,L,Gluten,Noon,18.442901,73.854615,2002,114,367
+1453,Vivaan Rao,36,F,****3743,Cold Coffee|Cappuccino,S,Dairy,Night,18.506325,73.926794,2157,177,1221
+1454,Ananya Verma,57,M,****1905,Mocha|Espresso,S,Nuts,Noon,18.459201,73.861532,2025,1367,741
+1455,Simran Malhotra,32,F,****6912,Espresso|Cold Coffee|Latte,S,None,Noon,18.550039,73.931672,2122,1118,361
+1456,Ananya Patel,21,O,****9332,Espresso|Americano,M,Dairy,Night,18.447331,73.895167,2138,460,323
+1457,Sahil Verma,50,M,****4801,Americano,L,Dairy,Night,18.4722,73.884996,2084,571,1595
+1458,Aditya Gupta,32,M,****3902,Tea|Americano|Cappuccino,M,Nuts,Morning,18.515758,73.854205,2112,396,442
+1459,Nikita Chopra,29,F,****6552,Americano,L,Nuts,Evening,18.596489,73.809054,2033,165,1417
+1460,Dev Patel,35,M,****2664,Americano|Espresso,S,Dairy,Noon,18.582225,73.873282,2164,1352,1854
+1461,Ananya Rao,53,M,****1105,Americano|Tea,S,Gluten,Night,18.485067,73.893503,2189,605,507
+1462,Priya Saxena,55,M,****7252,Cold Coffee|Hot Cocoa|Latte,M,None,Morning,18.599004,73.894056,2130,168,871
+1463,Arjun Kapoor,48,O,****4842,Americano,M,Nuts,Morning,18.529758,73.778688,2188,932,1945
+1464,Riya Kumar,40,F,****1289,Cappuccino|Latte|Espresso,L,Dairy,Noon,18.552929,73.913968,2192,1295,49
+1465,Ishaan Chopra,26,O,****2390,Mocha,L,Gluten,Morning,18.578061,73.788012,2177,781,1087
+1466,Aarav Mehta,45,F,****0830,Espresso|Tea|Mocha,S,Dairy,Morning,18.522758,73.922301,2094,205,227
+1467,Varun Nair,47,O,****8484,Mocha|Cappuccino,L,None,Noon,18.462545,73.830289,2139,332,1329
+1468,Maya Rao,31,O,****5018,Mocha,M,Dairy,Night,18.484743,73.786839,2089,1026,995
+1469,Arjun Malhotra,25,F,****9097,Hot Cocoa|Espresso|Americano,M,None,Noon,18.583105,73.84996,2021,900,1838
+1470,Ananya Mehta,22,M,****6378,Cappuccino|Mocha,S,Gluten,Noon,18.580399,73.86001,2161,146,600
+1471,Sneha Bhosale,26,F,****6552,Americano|Mocha,L,None,Evening,18.47065,73.780226,2060,1164,1320
+1472,Priya Saxena,55,F,****7476,Mocha|Espresso|Hot Cocoa,L,Gluten,Night,18.489053,73.797813,2079,451,1616
+1473,Neha Reddy,48,F,****4722,Cold Coffee,M,Dairy,Night,18.593394,73.875681,2042,1196,584
+1474,Ananya Deshmukh,60,M,****5929,Cappuccino,S,Dairy,Noon,18.510942,73.835848,2053,1251,1448
+1475,Aarav Gupta,40,M,****4366,Cold Coffee|Hot Cocoa,M,None,Morning,18.50513,73.856607,2038,1038,1900
+1476,Priya Kumar,18,O,****9353,Mocha|Americano|Tea,M,Gluten,Evening,18.595537,73.897366,2147,1465,301
+1477,Dev Chopra,39,O,****7977,Americano|Latte|Cappuccino,L,None,Evening,18.444367,73.875504,2057,1013,731
+1478,Vivaan Gupta,21,O,****4221,Espresso,M,Nuts,Morning,18.453774,73.912612,2174,1475,1961
+1479,Vivaan Malhotra,43,M,****3172,Latte|Mocha,M,Gluten,Noon,18.554954,73.845122,2099,863,24
+1480,Rohit Nair,40,F,****3629,Cappuccino|Americano|Mocha,M,Gluten,Night,18.486581,73.905608,2109,948,285
+1481,Dev Das,23,M,****6146,Americano|Tea,L,Dairy,Morning,18.589704,73.871209,2097,281,13
+1482,Sneha Iyer,44,M,****0574,Cold Coffee|Cappuccino,S,Gluten,Evening,18.529019,73.783457,2078,1298,622
+1483,Maya Bhosale,47,M,****9242,Cold Coffee,M,Dairy,Night,18.460268,73.883246,2074,954,367
+1484,Maya Reddy,19,M,****0081,Americano|Latte,L,Dairy,Night,18.530892,73.915635,2161,1074,1995
+1485,Aditya Nair,50,O,****4683,Hot Cocoa,S,None,Noon,18.491549,73.917231,2035,831,334
+1486,Aarav Iyer,41,F,****5158,Latte|Cold Coffee,M,None,Noon,18.563031,73.80602,2025,1326,1541
+1487,Ananya Bhosale,38,F,****3353,Hot Cocoa|Cold Coffee|Mocha,L,Dairy,Morning,18.525907,73.832961,2037,126,280
+1488,Arjun Mehta,41,F,****5728,Cold Coffee|Latte,S,Nuts,Noon,18.573452,73.903917,2144,1356,1412
+1489,Arjun Bhosale,53,O,****8177,Tea,M,None,Morning,18.571415,73.924446,2123,813,638
+1490,Aman Kumar,46,O,****7010,Cold Coffee|Mocha,M,None,Morning,18.475977,73.91379,2037,564,629
+1491,Isha Joshi,26,M,****0975,Cappuccino|Latte|Tea,M,Gluten,Morning,18.471816,73.781947,2169,1151,1214
+1492,Aarav Verma,25,F,****3159,Hot Cocoa,L,None,Morning,18.565579,73.923916,2053,1303,1845
+1493,Riya Deshmukh,60,F,****6738,Cold Coffee,L,Dairy,Evening,18.496753,73.913522,2200,1355,495
+1494,Arjun Rao,22,M,****4307,Latte|Hot Cocoa|Cappuccino,L,Nuts,Evening,18.467884,73.897343,2002,302,1892
+1495,Riya Malhotra,48,F,****4502,Cold Coffee|Espresso|Mocha,S,Nuts,Evening,18.597408,73.844555,2132,566,834
+1496,Aditya Gupta,25,F,****1078,Cold Coffee|Espresso|Americano,L,Dairy,Morning,18.45356,73.855694,2099,680,935
+1497,Nikita Mehta,46,M,****2662,Hot Cocoa|Tea,M,Nuts,Morning,18.583561,73.90509,2174,852,367
+1498,Sahil Verma,24,F,****1572,Cappuccino|Latte|Americano,M,Gluten,Morning,18.559029,73.919488,2044,232,744
+1499,Riya Gupta,30,O,****9768,Cappuccino|Americano,M,Gluten,Evening,18.562771,73.899256,2152,659,1548
+1500,Varun Nair,48,O,****3947,Americano|Hot Cocoa,M,Nuts,Night,18.457686,73.81681,2128,572,1286
