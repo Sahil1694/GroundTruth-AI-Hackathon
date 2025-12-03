@@ -39,6 +39,9 @@ The system uses a **RAG (Retrieval Augmented Generation)** pipeline to ensure ev
 
 ## 📂 Dataset
 
+<img width="1024" height="1024" alt="Gemini_Generated_Image_ywffmcywffmcywff" src="https://github.com/user-attachments/assets/ab128ded-cfe3-4cd3-909e-7ef46fb5d8c6" />
+
+
 We created a comprehensive synthetic retail dataset to simulate a real customer engagement environment.
 
 ### 1. `customers.csv`
