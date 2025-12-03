@@ -2,6 +2,8 @@
 
 **Location-Aware, Context-Aware, Personalized Retail Assistant powered by RAG + LLMs**
 
+<img width="1024" height="1024" alt="Gemini_Generated_Image_59sejf59sejf59se" src="https://github.com/user-attachments/assets/a98603c0-0ae4-4cd3-bd7d-b1d3fc355ac3" />
+
 ## 📌 Overview
 
 This project is built for the **GroundTruth AI Hackathon** (Problem Statement H-002).
